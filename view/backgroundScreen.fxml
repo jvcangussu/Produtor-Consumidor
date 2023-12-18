@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="624.0" prefWidth="832.0" xmlns="http://javafx.com/javafx/8.0.351" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.BackgroundScreenController">
+   <children>
+      <ImageView fitHeight="624.0" fitWidth="832.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/background.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dogFood1" fitHeight="93.0" fitWidth="93.0" layoutX="534.0" layoutY="517.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/food.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dogFood2" fitHeight="93.0" fitWidth="93.0" layoutX="534.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/food.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dogFood3" fitHeight="93.0" fitWidth="93.0" layoutX="534.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/food.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dogFood4" fitHeight="93.0" fitWidth="93.0" layoutX="534.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/food.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dogFood5" fitHeight="93.0" fitWidth="93.0" layoutX="534.0" layoutY="234.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/food.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dogFood6" fitHeight="93.0" fitWidth="93.0" layoutX="534.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/food.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dogFood7" fitHeight="93.0" fitWidth="93.0" layoutX="534.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/food.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dog" fitHeight="150.0" fitWidth="200.0" layoutX="69.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/dog/dog1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dogPoop" fitHeight="79.0" fitWidth="79.0" layoutX="8.0" layoutY="510.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/poop.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="produtorPauseResumeButton" fitHeight="64.0" fitWidth="64.0" layoutX="320.0" layoutY="102.0" onMouseClicked="#produtorPausarOuDespausar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="consumidorPauseResumeButton" fitHeight="64.0" fitWidth="79.0" layoutX="320.0" layoutY="241.0" onMouseClicked="#consumidorPausarOuDespausar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="resetButton" fitHeight="79.0" fitWidth="79.0" layoutX="69.0" layoutY="175.0" onMouseClicked="#resetAll" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/resetButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="person" fitHeight="211.0" fitWidth="133.0" layoutX="637.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/person/person1.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="consumidorSpeedSlider" layoutX="282.0" layoutY="305.0" />
+      <Slider fx:id="produtorSpeedSlider" layoutX="282.0" layoutY="168.0" />
+      <ImageView fx:id="closeButton" fitHeight="57.0" fitWidth="57.0" layoutX="761.0" layoutY="14.0" onMouseClicked="#finishProgram" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/closeButton.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
